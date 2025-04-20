@@ -1,10 +1,5 @@
 import logo from "../assets/RushiLogo.png";
-import {
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function Navbar() {
   return (
@@ -20,6 +15,7 @@ export default function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
+          className="transition-transform transform hover:scale-110 hover:text-blue-600"
         >
           <FaLinkedin />
         </a>
@@ -28,6 +24,7 @@ export default function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Github"
+          className="transition-transform transform hover:scale-110 hover:text-gray-800"
         >
           <FaGithub />
         </a>
@@ -36,6 +33,7 @@ export default function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
+          className="transition-transform transform hover:scale-110 hover:text-pink-600"
         >
           <FaInstagram />
         </a>
@@ -44,6 +42,7 @@ export default function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Twitter"
+          className="transition-transform transform hover:scale-110 hover:text-blue-400"
         >
           <FaTwitter />
         </a>
