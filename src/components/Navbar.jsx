@@ -1,6 +1,5 @@
 import logo from "../assets/RushiLogo.png";
 import {
-  FaGit,
   FaGithub,
   FaInstagram,
   FaLinkedin,
