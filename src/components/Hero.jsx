@@ -36,7 +36,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               download
-              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10 transition-all transform hover:bg-stone-800 hover:text-white hover:scale-105 hover:shadow-lg"
+              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10 transition-all transform hover:bg-stone-950 hover:text-white hover:scale-105 hover:shadow-lg"
             >
               Download Resume
             </a>
