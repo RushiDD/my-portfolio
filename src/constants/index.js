@@ -1,29 +1,16 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `I am a passionate frontend developer with a focus on building efficient and 
-scalable web applications. With 2.9 years of hands-on experience, I have honed my skills in frontend 
-technologies like React, JavaScript, TypeScript, Redux and Redux Toolkit. My goal is to leverage my expertise 
-to create intuitive user interfaces and deliver seamless user experiences that drive business success.`;
-
-export const ABOUT_TEXT = `I am a dedicated frontend developer with a strong passion for creating 
-dynamic and user-friendly web applications. With 2.9 years of professional experience, I have worked 
-extensively with React, JavaScript, and TypeScript. My journey in web development began with a curiosity 
-for frontend technologies, and it has evolved into a career where I strive to continuously improve my skills. 
-I thrive in collaborative environments and am excited about solving problems to deliver high-quality solutions. 
-Outside of coding, I enjoy exploring new technologies and contributing to open-source projects.`;
+export const HERO_CONTENT = `I’m a dedicated Frontend Developer with more than 3 years of hands-on experience in building efficient, scalable, and user-centric web applications. My expertise lies in modern frontend technologies including React, JavaScript, TypeScript, Redux, and Redux Toolkit. I’m passionate about crafting intuitive user interfaces and delivering seamless user experiences that not only meet user needs but also drive business growth. I thrive in collaborative environments and continuously seek opportunities to learn, innovate, and contribute to impactful digital solutions.`;
 
 export const EXPERIENCES = [
   {
     year: "2022 - Present",
     role: "Frontend Developer",
     company: "Capgemnini Technology",
-    description: `Working as part of a frontend team, I am responsible for building and maintaining 
-    user interfaces using React.js, Redux, and other modern web technologies. I collaborate with designers 
-    and backend developers to create seamless, user-friendly applications. I also work on improving test coverage 
-    for key components and hooks.`,
+    description: `As a Frontend Developer, I worked for the healthcare application client for sleep apnea desease. I worked collaboratively within a dynamic frontend team to design, build, and maintain responsive user interfaces using React.js, Redux, and other modern web technologies. I closely collaborate with UI/UX designers and backend engineers to ensure seamless integration and deliver intuitive, user-friendly applications. Additionally, I contribute to enhancing code quality by improving test coverage for critical components and custom hooks, ensuring reliability and maintainability across the codebase..`,
     technologies: [
       "React.js",
       "JavaScript",
@@ -33,70 +20,34 @@ export const EXPERIENCES = [
       "CSS",
     ],
   },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Online Eye Care App",
-    description: `Worked collaboratively with a team to build a full-stack web application, using React on the 
-    frontend and Spring Boot on the backend. I designed and implemented RESTful APIs to ensure smooth and efficient 
-    client-server communication. The user interface was built to be fully responsive, delivering a consistent and 
-    intuitive experience across all devices. I also wrote unit tests with JUnit and Jest, achieving over 80% test 
-    coverage and contributing to a robust and reliable codebase.`,
-    technologies: [
-      "Java",
-      "Spring Boot",
-      "React.js",
-      "JavaScript",
-      "HTML",
-      "CSS",
-    ],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer Intern",
-    company: "Tech Innovators",
-    description: `Assisted in building responsive web applications using React.js and contributed to 
-    developing reusable components and state management. Worked on bug fixes and UI improvements, and 
-    collaborated with senior developers to implement best practices in frontend development.`,
-    technologies: ["React.js", "HTML", "CSS", "Redux"],
-  },
 ];
 
 export const PROJECTS = [
   {
-    title: "Inspire Web Portal",
+    title: "Worldwise",
     image: project1,
-    description: `A health management web application for sleep apnea built using React and Redux, with features 
-      like report creation, lab test, and progress tracking.`,
-    technologies: ["React.js", "JavaScript", "Redux", "Node.js"],
+    description: `The WorldWise Map App is a React-based web application designed to help users explore and track cities and countries around the world using an interactive map interface.`,
+    technologies: ["React.js", "JavaScript", "HTML", "CSS", "Node.js"],
   },
   {
-    title: "Personal Portfolio",
+    title: "Bankist",
     image: project2,
     description:
-      "A personal portfolio website showcasing my projects, skills, and experience built using React, HTML, and CSS.",
-    technologies: ["React.js", "HTML", "CSS"],
+      "A personal demo bank application replicating the real world bank application with smooth interface",
+    technologies: ["JavaScript", "HTML", "CSS"],
   },
   {
-    title: "Weather Dashboard",
+    title: "UsePopcorn",
     image: project3,
     description:
-      "A weather dashboard that fetches and displays weather information based on user input, built with React and integrated with external weather APIs.",
-    technologies: ["React.js", "JavaScript", "CSS", "API Integration"],
+      "A dynamic and responsive web application that allows users to explore, review, and rate movies. Built with React, this app integrates with the TMDb API to fetch real-time movie data, including posters, synopses, cast details, and ratings.",
+    technologies: ["React.js", "JavaScript", "HTML", "CSS", "API Integration"],
   },
   {
-    title: "Online Eye Care App",
+    title: "Eat-N-Split",
     image: project4,
-    description: `An online website for eye care services, built using React.js and Spring Boot, with features 
-      like appointment booking and user authentication.`,
-    technologies: [
-      "Java",
-      "Spring Boot",
-      "React.js",
-      "JavaScript",
-      "HTML",
-      "CSS",
-    ],
+    description: `A simple react application made for splitting the expenses between users with clean UI and helpful features.`,
+    technologies: ["JavaScript", "React.js", "HTML", "CSS"],
   },
 ];
 
