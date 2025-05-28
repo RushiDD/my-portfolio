@@ -11,14 +11,7 @@ export const EXPERIENCES = [
     role: "Frontend Developer",
     company: "Capgemnini Technology",
     description: `As a Frontend Developer, I worked for the healthcare application client for sleep apnea desease. I worked collaboratively within a dynamic frontend team to design, build, and maintain responsive user interfaces using React.js, Redux, and other modern web technologies. I closely collaborate with UI/UX designers and backend engineers to ensure seamless integration and deliver intuitive, user-friendly applications. Additionally, I contribute to enhancing code quality by improving test coverage for critical components and custom hooks, ensuring reliability and maintainability across the codebase.`,
-    technologies: [
-      "React.js",
-      "JavaScript",
-      "TypeScript",
-      "Redux",
-      "HTML",
-      "CSS",
-    ],
+    technologies: ["React.js", "JavaScript", "TypeScript", "HTML", "CSS"],
   },
 ];
 

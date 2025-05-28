@@ -1,6 +1,6 @@
 import RushiProfile from "../assets/RushiProfile.jpg";
 import { HERO_CONTENT } from "../constants/index.js";
-import { motion, stagger } from "framer-motion";
+import { motion } from "framer-motion";
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
