@@ -7,7 +7,7 @@ export const HERO_CONTENT = `I’m a dedicated Frontend Developer with more than
 
 export const EXPERIENCES = [
   {
-    year: "2022 - Present",
+    year: "May 2022 - Present",
     role: "Frontend Developer",
     company: "Capgemnini Technology",
     description: `As a Frontend Developer, I worked for the healthcare application client for sleep apnea desease. I worked collaboratively within a dynamic frontend team to design, build, and maintain responsive user interfaces using React.js, Redux, and other modern web technologies. I closely collaborate with UI/UX designers and backend engineers to ensure seamless integration and deliver intuitive, user-friendly applications. Additionally, I contribute to enhancing code quality by improving test coverage for critical components and custom hooks, ensuring reliability and maintainability across the codebase..`,
