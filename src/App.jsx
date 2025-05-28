@@ -15,13 +15,15 @@ export default function App() {
         </div>
       </div>
 
-      <div className="container mx-auto px-8">
-        <Navbar />
-        <Hero />
-        <Technologies />
-        <Projects />
-        <Experience />
-        <Contact />
+      <div className="w-full overflow-hidden">
+        <div className="inline-block scale-[0.9] origin-top container px-8">
+          <Navbar />
+          <Hero />
+          <Technologies />
+          <Projects />
+          <Experience />
+          <Contact />
+        </div>
       </div>
     </div>
   );
