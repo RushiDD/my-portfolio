@@ -21,6 +21,7 @@ export const PROJECTS = [
     image: project1,
     description: `The WorldWise Map App is a React-based web application designed to help users explore and track cities and countries around the world using an interactive map interface.`,
     technologies: ["React.js", "JavaScript", "HTML", "CSS", "Node.js"],
+    url: "https://world-wise-map-app.netlify.app/",
   },
   {
     title: "Bankist",
@@ -28,6 +29,7 @@ export const PROJECTS = [
     description:
       "A personal demo bank application replicating the real world bank application with smooth interface",
     technologies: ["JavaScript", "HTML", "CSS"],
+    url: "https://bankist-javascript-app.netlify.app/",
   },
   {
     title: "UsePopcorn",
@@ -35,12 +37,14 @@ export const PROJECTS = [
     description:
       "A dynamic and responsive web application that allows users to explore, review, and rate movies. Built with React, this app integrates with the TMDb API to fetch real-time movie data, including posters, synopses, cast details, and ratings.",
     technologies: ["React.js", "JavaScript", "HTML", "CSS", "API Integration"],
+    url: "https://world-wise-map-app.netlify.app/",
   },
   {
     title: "Eat-N-Split",
     image: project4,
     description: `A simple react application made for splitting the expenses between users with clean UI and helpful features.`,
     technologies: ["JavaScript", "React.js", "HTML", "CSS"],
+    url: "https://eat-an-split.netlify.app/",
   },
 ];
 

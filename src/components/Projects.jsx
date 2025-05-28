@@ -23,14 +23,17 @@ export default function Projects() {
               viewport={{ once: true }}
               className="w-full lg:w-1/2 flex justify-center items-center"
             >
-              <img
-                src={project.image}
-                width={250}
-                height={250}
-                alt={project.title}
-                className="mb-6 rounded"
-              />
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={project.image}
+                  width={300}
+                  height={300}
+                  alt={project.title}
+                  className="mb-6 rounded transition-all duration-300 hover:blur-sm cursor-pointer"
+                />
+              </a>
             </motion.div>
+
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
