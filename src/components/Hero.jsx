@@ -63,7 +63,7 @@ export default function Hero() {
             </motion.p>
             <motion.a
               variants={childVaiants}
-              href="/Rushikesh_Frontend_Dev_CV.pdf"
+              href="/Rushikesh_Dhamanage_Dev_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download
